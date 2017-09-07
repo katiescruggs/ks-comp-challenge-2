@@ -30,16 +30,19 @@ li {
 }
 
 .container {
-	display: grid;
-	grid-template-rows: 50% 50%;
-	grid-template-columns: repeat(4, 25%);
-	margin: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	/*justify-content: space-between;*/
+	margin: 20px auto;
+	width: 95%;
+
 }
 
 article {
-	background-color: magenta;
+	background-color: aliceblue;
 	/*height: 100px;*/
-	width: 95%;
+	margin: 10px;
+	width: 315px;
 }
 
 article > header {
@@ -48,7 +51,8 @@ article > header {
 	color: white;
 	display: flex;
 	justify-content: space-between;
-	width: 300px;
+	align-content: space-between;
+	/*idth: 300px;*/
 }
 
 .arrow-icon, .views {
