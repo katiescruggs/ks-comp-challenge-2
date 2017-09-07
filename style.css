@@ -1,6 +1,27 @@
+* {
+	margin: 0px;
+}
+
 .main-header {
 	background-color: black;
 	color: white;
+	display: flex;
+	justify-content: space-between;
+}
+
+ul {
+	/*display: flex;*/
+	/*align-self: flex-end;*/
+}
+li {
+	align-self: flex-end;
+	display: inline-flex;
+	margin: 10px;
+	list-style-type: none;
+}
+
+.title {
+	margin-right: 40px;
 }
 
 .main-section {
