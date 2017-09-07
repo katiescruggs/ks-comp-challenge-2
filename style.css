@@ -1,0 +1,56 @@
+.main-header {
+	background-color: black;
+	color: white;
+}
+
+.main-section {
+	background-color: gray;
+	width: 100%;
+}
+
+.container {
+	display: grid;
+	grid-template-rows: 50% 50%;
+	grid-template-columns: repeat(4, 25%);
+	margin: 40px;
+}
+
+article {
+	background-color: magenta;
+	/*height: 100px;*/
+	width: 95%;
+}
+
+article > header {
+	background-image: url(https://static.pexels.com/photos/126407/pexels-photo-126407.jpeg);
+	background-position: center;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	width: 300px;
+}
+
+.arrow-icon, .views {
+	padding: 10px;
+}
+
+.num {
+	font-size: 50px;
+	margin: 0px;
+}
+
+.art-content {
+	padding: 10px;
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+a {
+	background-color: lightgray;
+}
