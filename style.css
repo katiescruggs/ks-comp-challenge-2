@@ -12,6 +12,10 @@ body {
 	line-height: 1.3;
 }
 
+.accent {
+	color: #58A4B0;
+}
+
 .main-header {
 	background-color: #750B0B;
 	background-color: #05204A;
@@ -48,7 +52,9 @@ li {
 	color: #05204A;
 }*/
 
-li:hover {
+li:hover .fa-share-alt,
+li:hover .fa-list-ul,
+li:hover .fa-user {
 	color: white;
 }
 
@@ -59,6 +65,10 @@ i {
 
 .right {
 	margin: 15px;
+}
+
+.admin {
+	margin-top: 5px;
 }
 
 .login {
@@ -233,6 +243,7 @@ h4 {
 
 a {
 	color: aliceblue;
+	font-size: 0.97em;
 	text-decoration: none;
 }
 
@@ -288,6 +299,10 @@ a:hover {
 		display: none;
 	}
 
+	h1 {
+		margin: 20px 0px;
+	}
+
 	.grimms {
 		display: none;
 	}
@@ -299,26 +314,34 @@ a:hover {
 	}
 }
 
-/*iPhone 5 fix*/
-@media screen and (max-width: 320px) {
+/*mobile*/
+@media screen and (max-width: 400px) {
 	.big-container,
 	.container {
-		margin: 0px 2px;
-		width: 290px;
+		width: 310px;
 	}
 
 	.login {
-		margin-left: 150px;
+		margin-left: 110px;
 	}
 
 	.title {
 		display: flex;
-		margin-top: 50px;
+		margin-top: 30px;
+		margin-left: 0px;
+		position: absolute;
+		top: 50px;
+		right: 15px;
 	}
 
 	h1 {
 		font-size: 1.7em;
 		margin: 0;
+	}
+
+	h2 {
+		padding-left: 10px;
+		font-size: 2em;
 	}
 	
 	article {
