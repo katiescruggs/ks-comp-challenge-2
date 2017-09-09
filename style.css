@@ -20,6 +20,10 @@ body {
 	height: 175px;
 }
 
+.fa-bars {
+	display: none;
+}
+
 ul {
 	margin-top: 100px;
 }
@@ -228,6 +232,11 @@ h4 {
 
 	li {
 		display: none;
+	}
+
+	.fa-bars {
+		display: block;
+		margin: 10px 20px;
 	}
 }
 
