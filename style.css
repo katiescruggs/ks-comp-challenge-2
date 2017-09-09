@@ -39,7 +39,6 @@ li {
 
 li > i {
 	color: #05204A;
-	color: #91866F;
 }
 
 li:hover {
@@ -57,7 +56,7 @@ i {
 
 .login {
 	display: inline-flex;
-	color: #91866F;
+	color: #05204A;
 }
 
 .fa-user-circle-o {
@@ -85,7 +84,7 @@ h1 {
 }
 
 .main-section {
-	background-color: #91866F;
+	background-color: #676344;
 	color: #05204A;
 	padding-top: 10px;
 	padding-bottom: 100px;
@@ -95,6 +94,7 @@ h1 {
 h2 {
 	font-size: 2.5em;
 	padding: 30px;
+	padding-left: 60px;
 }
 
 .big-container {
@@ -210,10 +210,23 @@ h4 {
 }
 
 .p-link {
-	background-color: lightgray;
+	background-color: #CBBC9C;
 	margin: 15px 0px;
 	padding: 10px;
 	height: 50px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #7F7662;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 @media screen and (max-width:1360px) {
