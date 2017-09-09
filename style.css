@@ -1,4 +1,10 @@
+/*colors from Schneewittchen.jpeg:
+#8A90AB #5D3751 #CDA390 #924258 #766E6A*/
+
 * {
+	box-sizing: border-box;
+	font-family: "Open Sans";
+	font-weight: 600;
 	margin: 0px;
 }
 
@@ -9,30 +15,60 @@ body {
 }
 
 .main-header {
-	background-color: black;
-	color: white;
+	background-color: #750B0B;
+	color: #E8D7B2;
 	display: flex;
 	justify-content: space-between;
-	height: 145px;
+	height: 175px;
 }
 
 ul {
-	/*display: flex;*/
-	/*align-self: flex-end;*/
+	margin-top: 100px;
 }
+
 li {
 	align-self: flex-end;
 	display: inline-flex;
+	font-size: 1.2em;
 	margin: 10px;
+	margin-right: 30px;
 	list-style-type: none;
 }
 
+li > img {
+	width: 25px;
+	margin-right: 10px;
+}
+
+.right {
+	margin: 15px;
+}
+
+.login {
+	display: inline-flex;
+}
+
 .title {
-	margin-right: 40px;
+	align-items: center;
+	display: inline-flex;
+	font-family: 'UnifrakturMaguntia';
+	font-size: 1.7em;
+	margin-top: 10px;
+}
+
+h1 {
+	font-family: 'UnifrakturMaguntia';
+}
+
+.title > img {
+	width: 45px;
+	height: 20px;
 }
 
 .main-section {
-	background-color: gray;
+	background-color: #8A90AB;
+	/*background-color: #E8D7B2;*/
+	color: #05204A;
 	padding-top: 10px;
 	padding-bottom: 100px;
 	width: 100%;
@@ -43,30 +79,68 @@ h2 {
 	padding: 30px;
 }
 
+.big-container {
+	margin: 0px auto;
+	width: 1340px;
+}
+
 .container {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
-	margin: 0px auto;
-	width: 95vw;
+	justify-content: flex-start;
+	width: 1340px;
 
 }
 
 article {
-	background-color: aliceblue;
+	background-color: white;
+	background-color: #E8D7B2;
+	color: #05204A;
+	filter: drop-shadow(2px 2px 2px #05204A);
 	/*height: 100px;*/
 	margin: 10px;
 	width: 315px;
 }
 
 article > header {
-	background-image: url(https://static.pexels.com/photos/126407/pexels-photo-126407.jpeg);
 	background-position: center;
 	color: white;
 	display: flex;
 	justify-content: space-between;
 	align-content: space-between;
 	height: 170px;
+}
+
+.art1 > header {
+	background-image: url(assets/images/rotkaeppchen.jpeg);
+}
+
+.art2 > header {
+	background-image: url(assets/images/sleeping-beauty.jpg);
+}
+
+.art3 > header {
+	background-image: url(assets/images/schneewittchen.jpg);
+}
+
+.art4 > header {
+	background-image: url(assets/images/haensel_gretel.jpg);
+}
+
+.art5 > header {
+	background-image: url(assets/images/froschkonig2.jpg);
+}
+
+.art6 > header {
+	background-image: url(assets/images/rumpelstilzchen.jpg);
+}
+
+.art7 > header {
+	background-image: url(assets/images/rapunzel2.jpg);
+}
+
+.art8 > header {
+	background-image: url(assets/images/aschenputtel.jpg);
 }
 
 .arrow-icon, .views {
@@ -83,7 +157,9 @@ article > header {
 }
 
 h3 {
+	font-style: italic;
 	font-size: 1.3em;
+
 }
 
 h4 {
@@ -101,4 +177,29 @@ h4 {
 	margin: 15px 0px;
 	padding: 10px;
 	height: 50px;
+}
+
+@media screen and (max-width:1360px) {
+	.big-container,
+	.container {
+		width: 1005px;
+	}
+}
+
+@media screen and (max-width: 1025px) {
+	.big-container,
+	.container {
+		width: 670px;
+	}
+
+	li {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 690px) {
+	.big-container,
+	.container {
+		width: 330px;
+	}
 }
