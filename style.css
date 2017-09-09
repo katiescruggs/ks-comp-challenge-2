@@ -12,9 +12,16 @@ body {
 	line-height: 1.3;
 }
 
+.accent {
+	color: #58A4B0;
+}
+
 .main-header {
 	background-color: #750B0B;
-	color: #E8D7B2;
+	background-color: #05204A;
+	color: #EEE5E9;
+	color: white;
+
 	display: flex;
 	justify-content: space-between;
 	height: 175px;
@@ -22,6 +29,10 @@ body {
 
 .fa-bars {
 	display: none;
+}
+
+nav {
+	margin-left: 10px;
 }
 
 ul {
@@ -37,12 +48,13 @@ li {
 	list-style-type: none;
 }
 
-li > i {
+/*li > i {
 	color: #05204A;
-	color: #91866F;
-}
+}*/
 
-li:hover {
+li:hover .fa-share-alt,
+li:hover .fa-list-ul,
+li:hover .fa-user {
 	color: white;
 }
 
@@ -55,14 +67,19 @@ i {
 	margin: 15px;
 }
 
-.login {
-	display: inline-flex;
-	color: #91866F;
+.admin {
+	margin-top: 5px;
 }
 
-.fa-user-circle-o {
-	color: #E8D7B2;
+.login {
+	display: inline-flex;
+	margin-left: 200px;
+	/*color: #05204A;*/
 }
+
+/*.fa-user-circle-o {
+	color: #E8D7B2;
+}*/
 
 .title {
 	align-items: center;
@@ -76,6 +93,11 @@ h1 {
 	font-family: 'UnifrakturMaguntia';
 }
 
+.grimms {
+	font-family: 'UnifrakturMaguntia';
+	padding-right: 15px;
+}
+
 .title > img {
 	/*width: 45px;*/
 	align-self: center;
@@ -85,7 +107,9 @@ h1 {
 }
 
 .main-section {
-	background-color: #91866F;
+	background-color: #BCC4DB;
+	background-color: #848FA5;
+	background-color: #5F5AA2;
 	color: #05204A;
 	padding-top: 10px;
 	padding-bottom: 100px;
@@ -95,6 +119,7 @@ h1 {
 h2 {
 	font-size: 2.5em;
 	padding: 30px;
+	padding-left: 60px;
 }
 
 .big-container {
@@ -111,9 +136,8 @@ h2 {
 }
 
 article {
-	background-color: white;
-	background-color: #E8D7B2;
-	color: #05204A;
+	background-color: #BCC4DB;
+	color: #2F3137;
 	filter: drop-shadow(2px 2px 2px #05204A);
 	/*height: 100px;*/
 	margin: 10px;
@@ -185,7 +209,8 @@ article > header:hover {
 }
 
 h3 {
-	font-style: italic;
+	/*font-family: "UnifrakturMaguntia";*/
+	/*font-style: italic;*/
 	font-size: 1.3em;
 
 }
@@ -210,16 +235,41 @@ h4 {
 }
 
 .p-link {
-	background-color: lightgray;
+	background-color: #848FA5;
 	margin: 15px 0px;
 	padding: 10px;
 	height: 50px;
+}
+
+a {
+	color: aliceblue;
+	font-size: 0.97em;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #3D518C;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 @media screen and (max-width:1360px) {
 	.big-container,
 	.container {
 		width: 1005px;
+	}
+
+	ul {
+		margin-top: 15px;
+		padding: 0;
+	}
+
+	li {
+		display: block;
+		padding: 0;
+
 	}
 }
 
@@ -249,6 +299,14 @@ h4 {
 		display: none;
 	}
 
+	h1 {
+		margin: 20px 0px;
+	}
+
+	.grimms {
+		display: none;
+	}
+
 	.login {
 		justify-content: space-around;
 		margin-left: 170px;
@@ -256,26 +314,34 @@ h4 {
 	}
 }
 
-/*iPhone 5 fix*/
-@media screen and (max-width: 320px) {
+/*mobile*/
+@media screen and (max-width: 400px) {
 	.big-container,
 	.container {
-		margin: 0px 2px;
-		width: 290px;
+		width: 310px;
 	}
 
 	.login {
-		margin-left: 150px;
+		margin-left: 110px;
 	}
 
 	.title {
 		display: flex;
-		margin-top: 50px;
+		margin-top: 30px;
+		margin-left: 0px;
+		position: absolute;
+		top: 50px;
+		right: 15px;
 	}
 
 	h1 {
 		font-size: 1.7em;
 		margin: 0;
+	}
+
+	h2 {
+		padding-left: 10px;
+		font-size: 2em;
 	}
 	
 	article {
