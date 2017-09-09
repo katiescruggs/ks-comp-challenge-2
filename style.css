@@ -3,6 +3,8 @@
 
 * {
 	box-sizing: border-box;
+	font-family: "Open Sans";
+	font-weight: 600;
 	margin: 0px;
 }
 
@@ -13,7 +15,6 @@ body {
 }
 
 .main-header {
-	background-color: #5D3751;
 	background-color: #750B0B;
 	color: #E8D7B2;
 	display: flex;
@@ -55,6 +56,10 @@ li > img {
 	margin-top: 10px;
 }
 
+h1 {
+	font-family: 'UnifrakturMaguntia';
+}
+
 .title > img {
 	width: 45px;
 	height: 20px;
@@ -63,6 +68,7 @@ li > img {
 .main-section {
 	background-color: #8A90AB;
 	/*background-color: #E8D7B2;*/
+	color: #05204A;
 	padding-top: 10px;
 	padding-bottom: 100px;
 	width: 100%;
@@ -151,7 +157,9 @@ article > header {
 }
 
 h3 {
+	font-style: italic;
 	font-size: 1.3em;
+
 }
 
 h4 {
