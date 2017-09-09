@@ -171,6 +171,15 @@ h4 {
 
 }
 
+.arrow {
+	padding: 10px;
+	padding-left: 3px;
+}
+
+.arrow > i {
+	margin-top: 10px;
+}
+
 .views > h4 {
 	margin-top: 10px;
 }
