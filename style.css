@@ -1,6 +1,4 @@
-/*colors from Schneewittchen.jpeg:
-#8A90AB #5D3751 #CDA390 #924258 #766E6A*/
-
+/*colors */
 * {
 	box-sizing: border-box;
 	font-family: "Open Sans";
@@ -22,6 +20,10 @@ body {
 	height: 175px;
 }
 
+.fa-bars {
+	display: none;
+}
+
 ul {
 	margin-top: 100px;
 }
@@ -35,9 +37,18 @@ li {
 	list-style-type: none;
 }
 
-li > img {
-	width: 25px;
-	margin-right: 10px;
+li > i {
+	color: #05204A;
+	color: #8A90AB;
+}
+
+li:hover {
+	color: white;
+}
+
+i {
+	align-self: center;
+	margin: 0 10px;
 }
 
 .right {
@@ -46,6 +57,11 @@ li > img {
 
 .login {
 	display: inline-flex;
+	color: #8A90AB;
+}
+
+.fa-user-circle-o {
+	color: #E8D7B2;
 }
 
 .title {
@@ -61,8 +77,11 @@ h1 {
 }
 
 .title > img {
-	width: 45px;
-	height: 20px;
+	/*width: 45px;*/
+	align-self: center;
+	margin: 10px;
+	margin-bottom: 30px;
+	height: 50px;
 }
 
 .main-section {
@@ -109,10 +128,20 @@ article > header {
 	justify-content: space-between;
 	align-content: space-between;
 	height: 170px;
+	
+	/*opacity: 0.7;*/
 }
+
+article > header:hover {
+	opacity: 1;
+}
+
+
 
 .art1 > header {
 	background-image: url(assets/images/rotkaeppchen.jpeg);
+	/*background: (0, 0, 0, 0.7);*/
+
 }
 
 .art2 > header {
@@ -168,6 +197,15 @@ h4 {
 
 }
 
+.arrow {
+	padding: 10px;
+	padding-left: 3px;
+}
+
+.arrow > i {
+	margin-top: 10px;
+}
+
 .views > h4 {
 	margin-top: 10px;
 }
@@ -194,6 +232,11 @@ h4 {
 
 	li {
 		display: none;
+	}
+
+	.fa-bars {
+		display: block;
+		margin: 10px 20px;
 	}
 }
 
