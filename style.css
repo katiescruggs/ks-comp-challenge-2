@@ -39,7 +39,7 @@ li {
 
 li > i {
 	color: #05204A;
-	color: #8A90AB;
+	color: #91866F;
 }
 
 li:hover {
@@ -57,7 +57,7 @@ i {
 
 .login {
 	display: inline-flex;
-	color: #8A90AB;
+	color: #91866F;
 }
 
 .fa-user-circle-o {
@@ -85,8 +85,7 @@ h1 {
 }
 
 .main-section {
-	background-color: #8A90AB;
-	/*background-color: #E8D7B2;*/
+	background-color: #91866F;
 	color: #05204A;
 	padding-top: 10px;
 	padding-bottom: 100px;
@@ -245,4 +244,42 @@ h4 {
 	.container {
 		width: 330px;
 	}
+
+	.admin {
+		display: none;
+	}
+
+	.login {
+		justify-content: space-around;
+		margin-left: 170px;
+		font-size: 1.6em;
+	}
+}
+
+/*iPhone 5 fix*/
+@media screen and (max-width: 320px) {
+	.big-container,
+	.container {
+		margin: 0px 2px;
+		width: 290px;
+	}
+
+	.login {
+		margin-left: 150px;
+	}
+
+	.title {
+		display: flex;
+		margin-top: 50px;
+	}
+
+	h1 {
+		font-size: 1.7em;
+		margin: 0;
+	}
+	
+	article {
+		width: 290px;
+	}
+
 }
