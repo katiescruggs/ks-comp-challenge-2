@@ -14,7 +14,10 @@ body {
 
 .main-header {
 	background-color: #750B0B;
-	color: #E8D7B2;
+	background-color: #05204A;
+	color: #EEE5E9;
+	color: white;
+
 	display: flex;
 	justify-content: space-between;
 	height: 175px;
@@ -37,9 +40,9 @@ li {
 	list-style-type: none;
 }
 
-li > i {
+/*li > i {
 	color: #05204A;
-}
+}*/
 
 li:hover {
 	color: white;
@@ -56,12 +59,12 @@ i {
 
 .login {
 	display: inline-flex;
-	color: #05204A;
+	/*color: #05204A;*/
 }
 
-.fa-user-circle-o {
+/*.fa-user-circle-o {
 	color: #E8D7B2;
-}
+}*/
 
 .title {
 	align-items: center;
@@ -84,7 +87,9 @@ h1 {
 }
 
 .main-section {
-	background-color: #676344;
+	background-color: #BCC4DB;
+	background-color: #848FA5;
+	background-color: #5F5AA2;
 	color: #05204A;
 	padding-top: 10px;
 	padding-bottom: 100px;
@@ -111,9 +116,8 @@ h2 {
 }
 
 article {
-	background-color: white;
-	background-color: #E8D7B2;
-	color: #05204A;
+	background-color: #BCC4DB;
+	color: #2F3137;
 	filter: drop-shadow(2px 2px 2px #05204A);
 	/*height: 100px;*/
 	margin: 10px;
@@ -210,19 +214,19 @@ h4 {
 }
 
 .p-link {
-	background-color: #CBBC9C;
+	background-color: #848FA5;
 	margin: 15px 0px;
 	padding: 10px;
 	height: 50px;
 }
 
 a {
-	color: white;
+	color: aliceblue;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #7F7662;
+	color: #3D518C;
 }
 
 a:hover {
