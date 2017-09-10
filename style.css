@@ -152,19 +152,19 @@ article > header {
 	align-content: space-between;
 	height: 170px;
 	
+
+	background-color: rgba(0, 0, 0, 0.3);
 	/*opacity: 0.7;*/
 }
 
+
+
 article > header:hover {
-	opacity: 1;
+	background-color: rgba(0, 0, 0, 0);
 }
-
-
 
 .art1 > header {
 	background-image: url(assets/images/rotkaeppchen.jpeg);
-	/*background: (0, 0, 0, 0.7);*/
-
 }
 
 .art2 > header {
