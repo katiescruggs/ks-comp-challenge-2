@@ -7,6 +7,8 @@
 }
 
 body {
+	height: 100%;
+	width: 100%;
 	font-family: sans-serif;
 	font-size: 16px;
 	line-height: 1.3;
@@ -48,14 +50,12 @@ li {
 	list-style-type: none;
 }
 
-/*li > i {
-	color: #05204A;
-}*/
-
 li:hover .fa-share-alt,
 li:hover .fa-list-ul,
-li:hover .fa-user {
-	color: white;
+li:hover .fa-user,
+li:hover
+{
+	color: #7B8486;
 }
 
 i {
@@ -74,12 +74,7 @@ i {
 .login {
 	display: inline-flex;
 	margin-left: 200px;
-	/*color: #05204A;*/
 }
-
-/*.fa-user-circle-o {
-	color: #E8D7B2;
-}*/
 
 .title {
 	align-items: center;
@@ -107,12 +102,10 @@ h1 {
 }
 
 .main-section {
-	background-color: #BCC4DB;
-	background-color: #848FA5;
 	background-color: #5F5AA2;
 	color: #05204A;
 	padding-top: 10px;
-	padding-bottom: 100px;
+	padding-bottom: 50px;
 	width: 100%;
 }
 
@@ -152,47 +145,73 @@ article > header {
 	align-content: space-between;
 	height: 170px;
 	
+
+	background-color: rgba(0, 0, 0, 0.3);
 	/*opacity: 0.7;*/
 }
 
-article > header:hover {
-	opacity: 1;
+.art1 > header {
+	background-image: url(../assets/images-dim/rotkaeppchen.jpeg);
 }
 
-
-
-.art1 > header {
-	background-image: url(assets/images/rotkaeppchen.jpeg);
-	/*background: (0, 0, 0, 0.7);*/
-
+.art1 > header:hover {
+	background-image: url(../assets/images/rotkaeppchen.jpeg);
 }
 
 .art2 > header {
-	background-image: url(assets/images/sleeping-beauty.jpg);
+	background-image: url(../assets/images-dim/sleeping-beauty2.jpg);
+}
+
+.art2 > header:hover {
+	background-image: url(../assets/images/sleeping-beauty.jpg);
 }
 
 .art3 > header {
-	background-image: url(assets/images/schneewittchen.jpg);
+	background-image: url(../assets/images-dim/schneewittchen.jpg);
+}
+
+.art3 > header:hover {
+	background-image: url(../assets/images/schneewittchen.jpg);
 }
 
 .art4 > header {
-	background-image: url(assets/images/haensel_gretel.jpg);
+	background-image: url(../assets/images-dim/haensel_gretel.jpg);
+}
+
+.art4 > header:hover {
+	background-image: url(../assets/images/haensel_gretel.jpg);
 }
 
 .art5 > header {
-	background-image: url(assets/images/froschkonig2.jpg);
+	background-image: url(../assets/images-dim/froschkonig2.jpg);
+}
+
+.art5 > header:hover {
+	background-image: url(../assets/images/froschkonig2.jpg);
 }
 
 .art6 > header {
-	background-image: url(assets/images/rumpelstilzchen.jpg);
+	background-image: url(../assets/images-dim/rumpelstilzchen.jpg);
+}
+
+.art6 > header:hover {
+	background-image: url(../assets/images/rumpelstilzchen.jpg);
 }
 
 .art7 > header {
-	background-image: url(assets/images/rapunzel2.jpg);
+	background-image: url(../assets/images-dim/rapunzel2.jpg);
+}
+
+.art7 > header:hover {
+	background-image: url(../assets/images/rapunzel2.jpg);
 }
 
 .art8 > header {
-	background-image: url(assets/images/aschenputtel.jpg);
+	background-image: url(../assets/images-dim/aschenputtel.jpg);
+}
+
+.art8 > header:hover {
+	background-image: url(../assets/images/aschenputtel.jpg);
 }
 
 .arrow-icon, .views {
