@@ -54,8 +54,10 @@ li {
 
 li:hover .fa-share-alt,
 li:hover .fa-list-ul,
-li:hover .fa-user {
-	color: white;
+li:hover .fa-user,
+li:hover
+{
+	color: #7B8486;
 }
 
 i {
@@ -107,8 +109,6 @@ h1 {
 }
 
 .main-section {
-	background-color: #BCC4DB;
-	background-color: #848FA5;
 	background-color: #5F5AA2;
 	color: #05204A;
 	padding-top: 10px;
