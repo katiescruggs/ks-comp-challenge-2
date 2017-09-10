@@ -158,67 +158,67 @@ article > header {
 }
 
 .art1 > header {
-	background-image: url(assets/images-dim/rotkaeppchen.jpeg);
+	background-image: url(../assets/images-dim/rotkaeppchen.jpeg);
 }
 
 .art1 > header:hover {
-	background-image: url(assets/images/rotkaeppchen.jpeg);
+	background-image: url(../assets/images/rotkaeppchen.jpeg);
 }
 
 .art2 > header {
-	background-image: url(assets/images-dim/sleeping-beauty.jpg);
+	background-image: url(../assets/images-dim/sleeping-beauty2.jpg);
 }
 
 .art2 > header:hover {
-	background-image: url(assets/images/sleeping-beauty.jpg);
+	background-image: url(../assets/images/sleeping-beauty.jpg);
 }
 
 .art3 > header {
-	background-image: url(assets/images-dim/schneewittchen.jpg);
+	background-image: url(../assets/images-dim/schneewittchen.jpg);
 }
 
 .art3 > header:hover {
-	background-image: url(assets/images/schneewittchen.jpg);
+	background-image: url(../assets/images/schneewittchen.jpg);
 }
 
 .art4 > header {
-	background-image: url(assets/images-dim/haensel_gretel.jpg);
+	background-image: url(../assets/images-dim/haensel_gretel.jpg);
 }
 
 .art4 > header:hover {
-	background-image: url(assets/images/haensel_gretel.jpg);
+	background-image: url(../assets/images/haensel_gretel.jpg);
 }
 
 .art5 > header {
-	background-image: url(assets/images-dim/froschkonig2.jpg);
+	background-image: url(../assets/images-dim/froschkonig2.jpg);
 }
 
 .art5 > header:hover {
-	background-image: url(assets/images/froschkonig2.jpg);
+	background-image: url(../assets/images/froschkonig2.jpg);
 }
 
 .art6 > header {
-	background-image: url(assets/images-dim/rumpelstilzchen.jpg);
+	background-image: url(../assets/images-dim/rumpelstilzchen.jpg);
 }
 
 .art6 > header:hover {
-	background-image: url(assets/images/rumpelstilzchen.jpg);
+	background-image: url(../assets/images/rumpelstilzchen.jpg);
 }
 
 .art7 > header {
-	background-image: url(assets/images-dim/rapunzel2.jpg);
+	background-image: url(../assets/images-dim/rapunzel2.jpg);
 }
 
 .art7 > header:hover {
-	background-image: url(assets/images/rapunzel2.jpg);
+	background-image: url(../assets/images/rapunzel2.jpg);
 }
 
 .art8 > header {
-	background-image: url(assets/images-dim/aschenputtel.jpg);
+	background-image: url(../assets/images-dim/aschenputtel.jpg);
 }
 
 .art8 > header:hover {
-	background-image: url(assets/images/aschenputtel.jpg);
+	background-image: url(../assets/images/aschenputtel.jpg);
 }
 
 .arrow-icon, .views {
