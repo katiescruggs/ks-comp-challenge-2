@@ -7,6 +7,7 @@
 }
 
 body {
+	background-color: #5F5AA2;
 	height: 100%;
 	width: 100%;
 	font-family: sans-serif;
@@ -19,9 +20,7 @@ body {
 }
 
 .main-header {
-	background-color: #750B0B;
 	background-color: #05204A;
-	color: #EEE5E9;
 	color: white;
 
 	display: flex;
@@ -223,19 +222,23 @@ article > header {
 	margin: 0px;
 }
 
+.date {
+	color: #636569;
+	font-size: 1em;
+
+}
+
 .art-content {
 	padding: 20px;
 }
 
 h3 {
-	/*font-family: "UnifrakturMaguntia";*/
-	/*font-style: italic;*/
 	font-size: 1.3em;
 
 }
 
 h4 {
-	font-size: 0.8em;
+	font-size: 0.9em;
 	margin-top: 20px;
 
 }
@@ -257,12 +260,12 @@ h4 {
 	background-color: #848FA5;
 	margin: 15px 0px;
 	padding: 10px;
-	height: 50px;
+	height: 55px;
 }
 
 a {
 	color: aliceblue;
-	font-size: 0.97em;
+	font-size: 1em;
 	text-decoration: none;
 }
 
@@ -311,37 +314,21 @@ a:hover {
 @media screen and (max-width: 690px) {
 	.big-container,
 	.container {
-		width: 330px;
+		width: 310px;
+	}
+
+	.login {
+		justify-content: space-around;
+		font-size: 1.2em;
+		margin-left: 110px;
 	}
 
 	.admin {
 		display: none;
 	}
 
-	h1 {
-		margin: 20px 0px;
-	}
-
 	.grimms {
 		display: none;
-	}
-
-	.login {
-		justify-content: space-around;
-		margin-left: 170px;
-		font-size: 1.6em;
-	}
-}
-
-/*mobile*/
-@media screen and (max-width: 400px) {
-	.big-container,
-	.container {
-		width: 310px;
-	}
-
-	.login {
-		margin-left: 110px;
 	}
 
 	.title {
